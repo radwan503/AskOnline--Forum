@@ -1,0 +1,359 @@
+@media (min-width: 240px) and (max-width: 319px){
+    .comments-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 99;
+    float: left;
+    border: 3px solid #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+    .comments-list .comment-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.reply-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.comment-main-level:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+    .comments-list .comment-box {
+    width: 20%;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+    .reply-list {
+    padding-left: 49px;
+    clear: both;
+    margin-top: 15px;
+}
+    .reply-list li:before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 25px;
+    left: -55px;
+}
+    .list-category53 {
+    width: 160%;
+    height: 40px;
+    background-color: #F3F3F3;
+    border: none;
+    outline: inherit;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #fd6371;
+}
+}
+@media (min-width: 320px) and (max-width: 374px){
+       .list-category53 {
+    width: 100%;
+    height: 40px;
+    background-color: #F3F3F3;
+    border: none;
+    outline: inherit;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #fd6371;
+}
+        .comments-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 99;
+    float: left;
+    border: 3px solid #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+    .comments-list .comment-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.reply-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.comment-main-level:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+    .comments-list .comment-box {
+    width: 20%;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+    .reply-list {
+    padding-left: 49px;
+    clear: both;
+    margin-top: 15px;
+}
+    .reply-list li:before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 25px;
+    left: -55px;
+}
+    
+}
+@media (min-width: 375px) and (max-width: 479px) {
+        .comments-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 99;
+    float: left;
+    border: 3px solid #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+    .comments-list .comment-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.reply-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.comment-main-level:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+    .comments-list .comment-box {
+    width: 20%;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+    .reply-list {
+    padding-left: 49px;
+    clear: both;
+    margin-top: 15px;
+}
+    .reply-list li:before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 25px;
+    left: -55px;
+}
+}
+@media (min-width: 480px) and (max-width: 639px)   {
+        .comments-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 99;
+    float: left;
+    border: 3px solid #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+    .comments-list .comment-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.reply-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.comment-main-level:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+    .comments-list .comment-box {
+    width: 20%;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+    .reply-list {
+    padding-left: 49px;
+    clear: both;
+    margin-top: 15px;
+}
+    .reply-list li:before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 25px;
+    left: -55px;
+}
+}   
+@media (min-width: 640px) and (max-width: 767px) {
+        .comments-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 99;
+    float: left;
+    border: 3px solid #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+    .comments-list .comment-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.reply-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.comment-main-level:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+    .comments-list .comment-box {
+    width: 20%;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+    .reply-list {
+    padding-left: 49px;
+    clear: both;
+    margin-top: 15px;
+}
+    .reply-list li:before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 25px;
+    left: -55px;
+}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+        .comments-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    z-index: 99;
+    float: left;
+    border: 3px solid #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+    .comments-list .comment-avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.reply-list .comment-avatar {
+    width: 20px;
+    height: 20px;
+}
+
+.comment-main-level:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: block;
+    clear: both;
+}
+    .comments-list .comment-box {
+    width: 20%;
+    float: left;
+    position: relative;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+    .reply-list {
+    padding-left: 49px;
+    clear: both;
+    margin-top: 15px;
+}
+    .reply-list li:before {
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: transparent;
+    position: absolute;
+    top: 25px;
+    left: -55px;
+}
+}
+@media (min-width: 1024px) and (max-width: 1280px)
+@media (min-width: 1680px) and (max-width: 1920px) 
