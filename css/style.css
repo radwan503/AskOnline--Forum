@@ -750,7 +750,8 @@ hr {
     list-style: none;
     display: inline-block;
     background-color: #222629;
-    padding: 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
     text-decoration: none;
     color: #ddd;
 }
@@ -759,7 +760,8 @@ hr {
     list-style: none;
     display: inline-block;
     background-color: #fd6372;
-    padding: 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
     text-decoration: none;
     color: #ddd;
     -webkit-transition: .5s;
@@ -1149,7 +1151,8 @@ hr {
 
 .tags-part2398 ul li a {
     background-color: #222629;
-    padding: 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
     font-family: fontawesome;
     text-decoration: none;
     color: #dddddd;
@@ -1157,7 +1160,8 @@ hr {
 
 .tags-part2398 ul li a:hover {
     background-color: #fd7362;
-    padding: 5px;
+    padding: 5px 15px;
+    border-radius: 15px;
     font-family: fontawesome;
     text-decoration: none;
     color: #dddddd;
