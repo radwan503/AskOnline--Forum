@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
 * {
     margin: 0;
@@ -36,6 +37,8 @@ hr {
     text-decoration: none;
     color: #000;
     font-family: "FontAwesome";
+    -webkit-transition: .6s;
+    -o-transition: .6s;
     transition: .6s;
 }
 
@@ -80,14 +83,16 @@ hr {
     border: none;
     border-radius: none;
     opacity: 1;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
     outline: none;
 }
 
 .navbar-serch-right-side .form-control222:focus {
     border-color: #ff7361;
     outline: 0;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .input-group-btn:last-child > .btn,
@@ -340,7 +345,8 @@ hr {
     background-image: none;
     border: #FF7361;
     border-radius: none;
-    box-shadow: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
 }
 
 .input-group-addon a {
@@ -376,11 +382,7 @@ hr {
 /*main content tab*/
 
 #main {
-    min-width: 320px;
-    max-width: 1000px;
-    padding: 20px;
-    margin-left: -20px;
-    margin-top: 30px;
+    margin: 25px 0;
     background: #F3F3F3;
 }
 
@@ -479,7 +481,8 @@ hr {
     background-color: #fff;
     margin-bottom: 20px;
     padding: 20px;
-    box-shadow: 0px 0px 13px -3px #777;
+    -webkit-box-shadow: 0px 0px 13px -3px #777;
+            box-shadow: 0px 0px 13px -3px #777;
 }
 
 
@@ -529,6 +532,12 @@ hr {
 
 .ques-details10018 {
     margin-top: 10px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .q-type238 {
@@ -538,6 +547,7 @@ hr {
     padding: 5px 10px 5px 10px;
     border: none;
     color: #fff;
+    border-radius: 15px;
 }
 
 
@@ -548,6 +558,7 @@ hr {
     padding: 5px 10px 5px 10px;
     border: none;
     color: #fff;
+    border-radius: 15px;
 }
 
 .button-ques2973:hover {
@@ -563,11 +574,11 @@ hr {
 .ques-icon-info3293 {
     font-size: 13px;
     font-weight: bold;
-    margin-top: -10px;
+    
 }
 
 .ques-icon-info3293 i {
-    padding-left: 10px;
+    margin: 0 10px 0px 0px;
 }
 
 .ques-icon-info3293 .fa-check {
@@ -629,7 +640,8 @@ hr {
     margin-top: 30px;
     background-color: #ffffff;
     padding: 15px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .blog-details3902 h3 {
@@ -696,7 +708,8 @@ hr {
 .status-part3821 {
     background-color: #fff;
     padding: 15px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .status-part3821 h4 {
@@ -713,7 +726,8 @@ hr {
 .categori-part329 {
     background-color: #fff;
     padding: 15px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
     margin-top: 30px;
 }
 
@@ -748,6 +762,8 @@ hr {
     padding: 5px;
     text-decoration: none;
     color: #ddd;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -767,7 +783,8 @@ hr {
     background-color: #fff;
     padding: 15px;
     margin-top: 30px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .social-part2189 h4 {
@@ -791,6 +808,8 @@ hr {
 .rss-one:hover {
     background-color: #222629;
     padding: 15px;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
     transition: .6s;
 }
 
@@ -817,6 +836,8 @@ hr {
 .facebook-two:hover {
     background-color: #222629;
     padding: 15px;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
     transition: .6s;
 }
 
@@ -843,6 +864,8 @@ hr {
 .twitter-three:hover {
     background-color: #222629;
     padding: 15px;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
     transition: .6s;
 }
 
@@ -869,6 +892,8 @@ hr {
 .youtube-four:hover {
     background-color: #222629;
     padding: 15px;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
     transition: .6s;
 }
 
@@ -892,7 +917,8 @@ hr {
     background-color: #fff;
     padding: 15px;
     margin-top: 30px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .login-part2389 h4 {
@@ -975,6 +1001,8 @@ hr {
     border: none;
     font-weight: bold;
     color: #fff;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
     transition: .6s;
     border-radius: 2px;
 }
@@ -1013,7 +1041,8 @@ hr {
     background-color: #fff;
     padding: 15px;
     margin-top: 30px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .highest-part302 h4 {
@@ -1044,6 +1073,8 @@ hr {
     top: 0;
     bottom: 0;
     opacity: 0;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
     transition: .5s ease;
     background-color: #FF7361;
     border-radius: 50%;
@@ -1097,7 +1128,8 @@ hr {
     background-color: #fff;
     padding: 15px;
     margin-top: 30px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .tags-part2398 h4 {
@@ -1129,6 +1161,8 @@ hr {
     font-family: fontawesome;
     text-decoration: none;
     color: #dddddd;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -1139,7 +1173,8 @@ hr {
     background-color: #fff;
     padding: 15px;
     margin-top: 30px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .recent-post3290 h4 {
@@ -1177,7 +1212,7 @@ h5:hover {
 }
 
 #custom-search-input {
-    margin: 0;
+    margin: 0px 0px 0px 18px;
     margin-top: 10px;
     padding: 0px;
 }
@@ -1413,7 +1448,8 @@ h5:hover {
     background-color: #FFFFFF;
     padding: 15px;
     margin-top: 70px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .username029 {
@@ -1589,7 +1625,8 @@ h5:hover {
     margin-top: 70px;
     background-color: #fff;
     padding: 15px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .post-que-rep-rihght320 {
@@ -1697,7 +1734,8 @@ h5:hover {
     margin-top: 20px;
     font-size: 12px;
     font-family: fontawesome;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .l-share2093 {
@@ -1734,6 +1772,8 @@ h5:hover {
     top: 0;
     bottom: 0;
     opacity: 0;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
     transition: .5s ease;
     background-color: #FF7361;
     border-radius: 50%;
@@ -1756,7 +1796,8 @@ h5:hover {
     padding: 40px;
     margin-top: 20px;
     font-family: fontawesome;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .author-deatila04re h5 {
@@ -1769,7 +1810,8 @@ h5:hover {
     background-color: #fff;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .related3948-question-part a {
@@ -1797,7 +1839,8 @@ h5:hover {
     background-color: #fff;
     padding: 20px;
     margin-top: 20px;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
 }
 
 .comments-container {
@@ -1844,8 +1887,6 @@ h5:hover {
     width: 7px;
     height: 7px;
     border: 3px solid #dee1e3;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
 }
 
@@ -1896,11 +1937,8 @@ h5:hover {
     z-index: 99;
     float: left;
     border: 3px solid #FFF;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
     border-radius: 4px;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
@@ -1933,7 +1971,6 @@ h5:hover {
     float: right;
     position: relative;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
 }
 
@@ -1966,8 +2003,6 @@ h5:hover {
     padding: 10px 12px;
     border-bottom: 1px solid #E5E5E5;
     overflow: hidden;
-    -webkit-border-radius: 4px 4px 0 0;
-    -moz-border-radius: 4px 4px 0 0;
     border-radius: 4px 4px 0 0;
 }
 
@@ -2020,8 +2055,6 @@ h5:hover {
     padding: 12px;
     font-size: 15px;
     color: #595959;
-    -webkit-border-radius: 0 0 4px 4px;
-    -moz-border-radius: 0 0 4px 4px;
     border-radius: 0 0 4px 4px;
 }
 
@@ -2046,8 +2079,6 @@ h5:hover {
     padding: 3px 5px;
     font-weight: 700;
     margin-left: 10px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
     border-radius: 3px;
     font-family: fontawesome;
 }
@@ -2105,6 +2136,8 @@ h5:hover {
     color: #fff;
     font-weight: bold;
     font-family: fontawesome;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -2114,6 +2147,8 @@ h5:hover {
     margin-top: 20px;
     background-color: #222629;
     border: none;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
     transition: .5s;
 }
 
@@ -2256,7 +2291,8 @@ h5:hover {
 
 .user-statas921 {
     background-color: #fff;
-    box-shadow: 0px 0px 13px -3px;
+    -webkit-box-shadow: 0px 0px 13px -3px;
+            box-shadow: 0px 0px 13px -3px;
     margin-top: 30px;
 }
 
