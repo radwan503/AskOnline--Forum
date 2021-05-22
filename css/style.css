@@ -14,7 +14,9 @@ hr {
     border-top: 1px solid #DEDEDE;
     background-color: #fff;
 }
-
+.mt-70{
+    margin-top: 70px;
+}
 .top-bar {
     background-color: #ff7361;
     padding: 1px;
@@ -226,7 +228,7 @@ hr {
 .dropdown-menu > li > a:focus {
     color: #fff;
     text-decoration: none;
-    background-color: #2F3239;
+    background-color: #2F3239 !important;
 }
 .dropdown-menu {
     position: absolute;
@@ -1713,10 +1715,6 @@ h5:hover {
     background-color: #fff;
 }
 
-.l-rightside39 {
-    float: right;
-}
-
 .l-rightside39 i {
     font-size: 12px;
 }
@@ -1847,9 +1845,9 @@ h5:hover {
             box-shadow: 0px 0px 13px -3px;
 }
 
-.comments-container {
+/* .comments-container {
     width: 768px;
-}
+} */
 
 .comments-container h1 {
     font-size: 36px;
@@ -1966,13 +1964,10 @@ h5:hover {
 }
 
 
-/**
- * Caja del Comentario
- ---------------------------*/
 
 .comments-list .comment-box {
-    width: 88%;
-    float: right;
+    width: 62%;
+    float: left;
     position: relative;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
@@ -1999,7 +1994,7 @@ h5:hover {
 }
 
 .reply-list .comment-box {
-    width: 610px;
+    width: 60%;
 }
 
 .comment-box .comment-head {
@@ -2020,6 +2015,7 @@ h5:hover {
     -webkit-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
+    display: none;
 }
 
 .comment-box .comment-head i:hover {
@@ -2088,24 +2084,6 @@ h5:hover {
 }
 
 
-/** =====================
- * Responsive
- ========================*/
-
-/*
-@media only screen and (max-width: 766px) {
-    .comments-container {
-        width: 480px;
-    }
-    .comments-list .comment-box {
-        width: 390px;
-    }
-    .reply-list .comment-box {
-        width: 320px;
-    }
-}
-*/
-
 
 /*============comment289-box===========*/
 
@@ -2171,13 +2149,13 @@ h5:hover {
 /*============user question===========*/
 
 .user-profile328903 {
-    margin-top: 40px;
+    margin-top: 70px;
 }
 
 .about-user2039 {
     padding: 20px;
     background-color: #fff;
-    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 .badge229 a {

@@ -108,7 +108,7 @@
     clear: both;
 }
     .comments-list .comment-box {
-    width: 20%;
+    width: 90%;
     float: left;
     position: relative;
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
@@ -355,5 +355,9 @@
     left: -55px;
 }
 }
-@media (min-width: 1024px) and (max-width: 1280px)
-@media (min-width: 1680px) and (max-width: 1920px) 
+@media (min-width: 1024px) and (max-width: 1280px){
+    
+}
+@media (min-width: 1680px) and (max-width: 1920px){
+    
+} 
