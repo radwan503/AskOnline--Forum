@@ -4,7 +4,22 @@
 
 >Welcome to the Ask forum –  Design Help Desk, Support, Forum, Knowledge-Base Responsive Site Template. The Ask is a bootstrap design help desk, support forum website template coded and designed with bootstrap Design, Bootstrap, HTML5 and CSS. Ask ideal for wiki sites, knowledge base sites, support forum sites, ticket systems, theme documentations and similar projects. Ask comes with valid HTML files, 100% responsive layout and with clean codes.<br>
 
-#📌Main features:
+#features & Pages:
+
+✔Login<br> 
+✔Contact<br> 
+✔Forum<br> 
+✔Post Details<br> 
+✔User<br> 
+✔User Question<br> 
+✔Category<br>
+✔Searching<br>
+✔Recent Question<br>
+✔Most Response<br>
+
+
+
+#�Main features:
 
 ✔HTML5 & CSS3<br> 
 ✔Pixel Perfect Design<br> 
@@ -22,24 +37,14 @@
 ✔W3C Validated Code<br>   
 ✔And Much More!<br>
 
-#📌Page:
 
-✔Login<br> 
-✔Contact<br> 
-✔Forum<br> 
-✔Post Details<br> 
-✔User<br> 
-✔User Question<br> 
-✔Category<br> 
-
-#📌Source & Credits
+#�Source & Credits
 BootStrap 4<br> 
 Google font<br> 
 Javascript<br> 
 Jquery Library<br>
 Font Awesome 5<br>
 
->Thanks ======== please dont Forget to Leave your Feedback.<br>
 
 ☑️N.B: I create this template for develop my skill. This Template design idea is not mine,but every single line of code done by me.<br>
 
